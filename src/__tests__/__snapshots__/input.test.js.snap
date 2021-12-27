@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly 1`] = `
+<InputGroup>
+  <InputLeftAddon>
+    mock-prefix
+  </InputLeftAddon>
+  <Input
+    onChange={[Function]}
+    placeholder="mock-placeholder"
+    value="mock-value"
+  />
+  <InputRightAddon>
+    mock-suffix
+  </InputRightAddon>
+</InputGroup>
+`;

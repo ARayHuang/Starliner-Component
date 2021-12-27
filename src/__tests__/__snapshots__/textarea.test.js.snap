@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textarea should render correctly 1`] = `
+<Textarea
+  onChange={[Function]}
+  placeholder="mock-placeholder"
+  value="mock-value"
+/>
+`;

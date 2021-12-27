@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should render correctly 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  alignItems="center"
+  button={true}
+  className="mock-list-className"
+  classes={
+    Object {
+      "selected": "mock-list-selected-className",
+    }
+  }
+  dense={true}
+  disableGutters={false}
+  disabled={false}
+  divider={false}
+  onClick={[Function]}
+  selected={false}
+>
+  <div>
+    mock-children
+  </div>
+</WithStyles(ForwardRef(ListItem))>
+`;

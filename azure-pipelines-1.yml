@@ -1,0 +1,32 @@
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+pr:
+  branches:
+    include:
+    - develop
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: |
+    git checkout develop
+  displayName: 'checkout develop'
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm install rollup -g
+  displayName: 'npm install'
+
+- script: |
+    npm run test
+  displayName: 'run test'
+

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckboxGroup should render correctly 1`] = `
+<CheckboxGroup
+  defaultValue={
+    Array [
+      "HW",
+    ]
+  }
+  onChange={[Function]}
+>
+  <HStack>
+    <Checkbox
+      key="HW"
+      value="HW"
+    >
+      HW
+    </Checkbox>
+    <Checkbox
+      key="ME"
+      value="ME"
+    >
+      ME
+    </Checkbox>
+    <Checkbox
+      key="insideLab"
+      value="insideLab"
+    >
+      Inside Lab
+    </Checkbox>
+  </HStack>
+</CheckboxGroup>
+`;

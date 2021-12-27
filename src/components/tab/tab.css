@@ -1,0 +1,90 @@
+
+.phase_container {
+  text-align: center;
+}
+.phase_wrap input[type="radio"] {
+  display: none;
+}
+.phase_wrap input[type="radio"] + label {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.phase_wrap input[type="radio"] + label:hover {
+  cursor: pointer;
+}
+.phase_wrap input[type="radio"] + label:hover .phase_label {
+  transform: scale(1.2) translate(0px, -2px);
+}
+.phase_wrap input[type="radio"] + label:hover:before {
+  transform: scale(1.2);
+}
+.phase_wrap input[type="radio"] + label:before,
+.phase_wrap input[type="radio"] + label:after {
+  transition: 0.2s ease-in-out all;
+  -webkit-transition: 0.2s ease-in-out all;
+}
+.phase_wrap input[type="radio"] + label:after {
+  position: absolute;
+  left: 0;
+  top: calc(50% - 2px);
+  content: ' ';
+  width: 100%;
+  border-top: 4px solid #aaa;
+  z-index: 1;
+}
+.phase_wrap input[type="radio"] + label:before {
+  position: absolute;
+  left: 0;
+  top: 25%;
+  content: ' ';
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #aaa;
+  z-index: 2;
+}
+.phase_wrap input[type="radio"]:checked + label .phase_label span {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 6px;
+}
+.phase_wrap input[type="radio"]:checked + label .phase_label {
+  transform: scale(1.2);
+}
+.phase_wrap input[type="radio"]:checked + label:before {
+  background-color: #440075;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 6px;
+}
+.phase_item {
+  padding: 0;
+}
+.phase_item:focus {
+  border: none;
+  box-shadow: none !important;
+}
+.phase_item:last-of-type input[type="radio"] + label:after {
+  border-style: dashed;
+}
+.phase_item .phase_label {
+  transition: 0.1s ease-in-out all;
+  -webkit-transition: 0.1s ease-in-out all;
+  position: absolute;
+  top: -26px;
+  left: calc((-50% + 9px));
+  width: 100%;
+  text-align: center;
+}
+.phase_item .phase_label span {
+  transition: 0.2s ease-in-out all;
+  -webkit-transition: 0.2s ease-in-out all;
+  border: 1px solid #AAA;
+  background-color: #fff;
+  font-weight: 777;
+  padding: 4px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+.phase_wrap input[type="radio"]:checked + label span {
+  background-color: #440075;
+  color: #fff;
+}

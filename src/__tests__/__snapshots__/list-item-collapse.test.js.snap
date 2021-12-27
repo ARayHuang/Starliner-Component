@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItemCollapse should render correctly 1`] = `
+<Fragment>
+  <ListItem
+    alignItems="center"
+    button={true}
+    className=""
+    classes={
+      Object {
+        "selected": "",
+      }
+    }
+    hasBottomDivider={false}
+    hasItemPadding={true}
+    isButton={false}
+    isDense={true}
+    isDisabled={false}
+    isSelected={false}
+    onClick={[Function]}
+  >
+    <div
+      className=""
+    >
+      collapse-text
+    </div>
+    <Memo(ForwardRef(ExpandMoreIcon)) />
+  </ListItem>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <List
+      className=""
+      component="div"
+      disablePadding={true}
+    >
+      <ListItem
+        alignItems="center"
+        className="makeStyles-defaultSubItem-1 "
+        classes={
+          Object {
+            "selected": "",
+          }
+        }
+        hasBottomDivider={false}
+        hasItemPadding={true}
+        isButton={true}
+        isDense={true}
+        isDisabled={false}
+        isSelected={false}
+        key="item-2"
+        onClick={[Function]}
+      >
+        item-1
+      </ListItem>
+      <ListItem
+        alignItems="center"
+        className="makeStyles-defaultSubItem-1 "
+        classes={
+          Object {
+            "selected": "",
+          }
+        }
+        hasBottomDivider={false}
+        hasItemPadding={true}
+        isButton={true}
+        isDense={true}
+        isDisabled={false}
+        isSelected={false}
+        key="item-2"
+        onClick={[Function]}
+      >
+        item-2
+      </ListItem>
+    </List>
+  </WithStyles(ForwardRef(Collapse))>
+</Fragment>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`select should render correctly 1`] = `
+<Select
+  defaultValue="1"
+  onChange={[Function]}
+  variant="outline"
+>
+  <option
+    key="1"
+    value="1"
+  >
+    menu1
+  </option>
+  <option
+    key="2"
+    value="2"
+  >
+    menu2
+  </option>
+  <option
+    key="3"
+    value="3"
+  >
+    menu3
+  </option>
+</Select>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+<WithStyles(ForwardRef(List))
+  className="mock-list-className"
+>
+  <div>
+    mock-children
+  </div>
+</WithStyles(ForwardRef(List))>
+`;

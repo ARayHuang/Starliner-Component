@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar should render correctly 1`] = `
+<Fragment>
+  <Stack
+    h="50px"
+  >
+    <Flex
+      alignItems="center"
+    >
+      <Box
+        p="2"
+        sx={
+          Object {
+            "color": "#3f4a57",
+          }
+        }
+      >
+        <div>
+          mock-children
+        </div>
+      </Box>
+      <Spacer />
+      <Box
+        p="2"
+        sx={
+          Object {
+            "backgroundColor": "#ebf2fa",
+          }
+        }
+      >
+        <span>
+          mock-username
+          /
+        </span>
+        <span
+          style={
+            Object {
+              "color": "#bdcfe7",
+              "fontSize": "7pt",
+            }
+          }
+        >
+          mock-email
+        </span>
+        <Menu>
+          <MenuButton>
+            <Avatar
+              name="mock-username"
+              size="sm"
+            />
+          </MenuButton>
+          <MenuList>
+            <MenuItem
+              classnames="logout-menu"
+              onClick={[Function]}
+            >
+              Logout
+            </MenuItem>
+          </MenuList>
+        </Menu>
+      </Box>
+    </Flex>
+  </Stack>
+  <Divider />
+</Fragment>
+`;

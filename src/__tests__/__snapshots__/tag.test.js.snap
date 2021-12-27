@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should render correctly 1`] = `
+<Fragment>
+  <Tag
+    className="mock-Tag-className"
+    size="sm"
+    sx={Object {}}
+    variant="solid"
+  >
+    <TagLabel />
+  </Tag>
+</Fragment>
+`;

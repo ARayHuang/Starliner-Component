@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`side bar  should render correctly 1`] = `
+<Box
+  as="nav"
+  bg="#0c1d47"
+  color="#FFF"
+  display="block"
+  height="100vh"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  px="3"
+  py="5"
+  right="0"
+  transition="all 0.2s"
+  width="150px"
+/>
+`;

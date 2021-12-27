@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render correctly 1`] = `
+<Modal
+  allowPinchZoom={false}
+  autoFocus={true}
+  blockScrollOnMount={true}
+  closeOnOverlayClick={true}
+  isCentered={true}
+  isOpen={true}
+  lockFocusAcrossFrames={true}
+  motionPreset="scale"
+  onClose={[Function]}
+  onOverlayClick={[Function]}
+  returnFocusOnClose={true}
+  scrollBehavior="outside"
+  size="lg"
+  trapFocus={true}
+>
+  <ModalOverlay />
+  <ModalContent
+    sx={
+      Object {
+        "padding": "5px",
+      }
+    }
+  >
+    <ModalHeader />
+    <ModalCloseButton />
+    <Divider />
+    <ModalBody>
+      mock children
+    </ModalBody>
+    <ModalFooter />
+  </ModalContent>
+</Modal>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app bar should render correctly 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  className="mock-app-bar-className"
+  color="transparent"
+  position="static"
+>
+  <WithStyles(ForwardRef(Toolbar))>
+    <div>
+      mock-children
+    </div>
+  </WithStyles(ForwardRef(Toolbar))>
+</WithStyles(ForwardRef(AppBar))>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`block should render correctly 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="mock-block-className"
+  elevation={4}
+  square={true}
+  variant="outlined"
+>
+  <div>
+    mock-children
+  </div>
+</WithStyles(ForwardRef(Paper))>
+`;
